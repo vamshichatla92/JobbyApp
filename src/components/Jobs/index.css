@@ -1,0 +1,23 @@
+.jobs-page-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(47, 49, 42, 0.945);
+}
+.side-a {
+  display: flex;
+  margin: 10px;
+  background-color: rgba(168, 48, 74, 0.945);
+  width: 400px;
+  flex-grow: inherit;
+}
+.side-b {
+  display: flex;
+  background-color: #5353;
+  flex-direction: column;
+}
+
+.search-container {
+  height: 60px;
+  width: 400px;
+  display: flex;
+}

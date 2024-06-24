@@ -1,0 +1,8 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+}
+.not-found-container {
+  height: 80px;
+  width: 80px;
+}

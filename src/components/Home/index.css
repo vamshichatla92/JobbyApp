@@ -1,0 +1,41 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  padding: 50px; /* Adjust padding for spacing */
+  text-align: center; /* Center-align text */
+}
+
+.home-heading-text {
+  margin: 10px 0; /* Add margin for spacing between headings */
+  color: rgb(219, 207, 207); /* Adjust heading color */
+  font-size: 32px; /* Adjust heading font size */
+}
+
+.home-description-text {
+  margin-bottom: 20px; /* Add margin below description text */
+  color: rgb(241, 221, 221); /* Adjust description text color */
+}
+
+.home-image {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+.find-jobs-button {
+  padding: 10px 20px; /* Adjust padding for button */
+  background-color: #007bff; /* Adjust button background color */
+  color: #fff; /* Adjust button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s; /* Add transition effect for hover */
+}
+
+.find-jobs-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}

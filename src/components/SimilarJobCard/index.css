@@ -1,0 +1,43 @@
+.similar-job-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.rating svg {
+  color: gold;
+  margin-right: 5px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.location,
+.employment-type {
+  display: flex;
+  align-items: center;
+}
+
+.location svg,
+.employment-type svg {
+  margin-right: 5px;
+}

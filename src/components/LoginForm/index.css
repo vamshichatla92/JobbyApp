@@ -1,0 +1,76 @@
+.app-container {
+  display: flex;
+  justify-content: center; /* Center the form container */
+  align-items: center; /* Vertically center the form container */
+  background-color: rgb(15, 15, 15);
+  height: 100vh; /* Full height of the viewport */
+}
+
+.div-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the content */
+  background-color: rgba(4, 35, 41, 0.877);
+  padding: 20px; /* Add some padding around the form */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.website-icon-image {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px; /* Space between the logo and the form */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column; /* Stack the inputs vertically */
+  background-color: transparent;
+  padding: 20px; /* Add padding inside the form */
+  border-radius: 5px; /* Optional: rounded corners for the form */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* Stack the label and input vertically */
+  background-color: transparent;
+  margin-bottom: 10px; /* Space between input fields */
+  padding: 10px; /* Padding inside each input container */
+  border-radius: 5px; /* Optional: rounded corners for the input containers */
+}
+
+.input-label {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(
+    211,
+    47,
+    47
+  ); /* Ensure label text is readable on brown background */
+  margin-bottom: 5px; /* Space between the label and the input */
+}
+
+/* Assuming you want to apply styles to input elements directly,
+   since .user-name-input-element and .password-input-element classes
+   were not in the original JS. Add these for input styling: */
+
+input[type='text'] {
+  font-family: cursive;
+  font-weight: bold;
+  padding: 8px; /* Padding inside the input for better readability */
+  border: none; /* Optional: remove border */
+  border-radius: 4px; /* Optional: rounded corners for the input */
+}
+
+/* Optional: style for the input when it's focused */
+input[type='text']:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.4); /* Custom focus indicator */
+}
+
+.login-button {
+  height: 35px;
+  width: 140px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-width: 0px;
+}

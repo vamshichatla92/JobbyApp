@@ -1,0 +1,31 @@
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333; /* Dark background color for the navigation bar */
+  padding: 10px 20px; /* Add padding to the navigation bar */
+}
+
+.nav-logo {
+  height: 50px; /* Adjust the height of the logo */
+  width: auto; /* Ensure the width adjusts accordingly */
+}
+
+.nav-heading {
+  margin: 0 15px; /* Add space around the navigation headings */
+  color: #fff; /* White color for the navigation headings */
+  font-size: 18px; /* Adjust the font size of the headings */
+}
+
+.logout-button {
+  padding: 8px 16px; /* Add padding to the button */
+  background-color: #ff6347; /* Red color for the button */
+  color: #fff; /* White color for the button text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.logout-button:hover {
+  background-color: #cc4c38; /* Darker red color on hover */
+}
